@@ -23,7 +23,7 @@ while True:
     try:
         sayi=next(iterator)
         print(sayi)
-    except StopAsyncIteration:
+    except StopIteration:
         break
 
 
